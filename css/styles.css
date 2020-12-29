@@ -1,0 +1,432 @@
+section{
+    font-family: 'Montserrat' !important;
+    padding: 0 8rem;
+}
+
+/*------------------------------- NAVBAR -------------------------------*/
+
+.logo{
+    width: 42px;
+}
+
+.navbar{
+    font-family: 'Yeseva One';
+    font-size: 20px;
+}
+
+.navbar .nav-link{
+    color: black !important;
+}
+
+.nav-item1{
+    margin-right: 50px;
+}
+
+/*------------------------------- TITLE -------------------------------*/
+
+.landing{
+    background-color: #f6f6f6;
+    border-radius: 30px;
+}
+
+.landing-text{
+    margin-top: 19%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+}
+
+.title{
+    font-family: 'Yeseva One' !important;
+    font-size: 55px;
+}
+
+.title-text{
+    font-family: 'Montserrat' !important;
+    font-size: 30px;
+}
+
+.contact-button{
+    margin: 7% 0;
+    padding: 1% 3%;
+    background-color: #0F7337 !important;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 12px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.contact-button:hover, .contact-button:focus, .contact-button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.image{
+    width: 120%;
+    margin-top: 19%;
+}
+
+/*------------------------------- EXPERIENCE -------------------------------*/
+
+.experience{
+    margin: 7rem 0 0;
+    text-align: center;
+    background-color: #FFE8C4;
+    border-radius: 30px;
+    padding: 7% 5%;
+}
+
+.icons{
+    font-size: 5rem;
+}
+
+.icon{
+   display: inline-block;
+   margin-bottom: 2%;
+   padding: 0;
+   margin: 0 -4%;
+}
+
+.icon-text{
+    font-size: 14px;
+}
+
+/*------------------------------- PROJECTS -------------------------------*/
+
+.projects{
+    margin: 7rem 0;
+    text-align: center !important;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    padding: 7% 5%;
+}
+
+.project-card{
+    margin: 10% 8%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 12% 1%;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.05);
+}
+
+.project-image{
+    width: 80%;
+}
+
+.project-text{
+    margin: 10% 8% 7% 8%;
+    text-align: left;
+}
+
+.project-title{
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.project-link{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/*------------------------------- CONTACT -------------------------------*/
+.contact{
+    background-color: #A5D2EB;
+    border-radius: 30px;
+    padding: 7% 18%;
+    text-align: center;
+}
+
+.contact-row{
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: left;
+    padding: 5% 8%;
+    margin-top: 5%;
+}
+.wrap-input{
+    margin: 1% 0 3%;
+}
+
+.label-input{
+    font-size: 14px;
+    font-family: 'Montserrat Light';
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: 0;
+    padding: 2.5%;
+    font-size: 14px;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+}
+
+.button-send-msg{
+    background-color: #044673;
+    color: #fff;
+    border-radius: 25px;
+    padding: 1.5% 5%;
+    font-size: 16px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button-send-msg:hover, .button-send-msg:focus, .button-send-msg:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/*------------------------------- FOOTER -------------------------------*/
+.footer{
+    margin: 5% 8% 0;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+span{
+    font-size: 14px;
+    font-family: 'Montserrat Light';
+}
+
+
+
+/* responsive design */
+
+@media (max-width: 1200px){
+    /*----------- NAVBAR -----------*/
+
+    .navbar{
+        font-size: 16px;
+    }
+
+    .nav-item1{
+        margin-right: 28px;
+    }
+
+    /*----------- TITLE -----------*/
+
+    .title{
+        font-size: 44px;
+    }
+
+    .title-text{
+        font-size: 22px;
+    }
+
+    .contact-button{
+        margin: 7% 0;
+        padding: 1% 3%;
+        font-size: 22px;
+    }
+
+    /*----------- FOOTER -----------*/
+    .footer{
+        margin: 5% 10% 0;
+        padding: 1%;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        text-align: center;
+    }
+
+    /*----------- EXPERIENCE -----------*/
+
+    .icons{
+        font-size: 4rem;
+    }
+
+    .icon{
+        margin: 2% -2.5%;
+     }
+
+    .icon-text{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px){ 
+    /*----------- NAVBAR -----------*/
+
+    .navbar .nav-link{
+        text-align: right;
+    }
+
+    .nav-item1{
+        margin-right: 0;
+    }
+
+    /*----------- TITLE -----------*/
+
+    .title{
+        font-size: 40px;
+    }
+
+    .title-text{
+        font-size: 24px;
+    }
+
+    .contact-button{
+        font-size: 18px;
+    }
+
+    .image{
+        width: 160%;
+        margin-top: 35%;
+        margin-left: -30%;
+    }
+
+    /*----------- EXPERIENCE -----------*/
+
+    .icons{
+        font-size: 4rem;
+    }
+
+    .icon{
+        margin: 2% -4%;
+     }
+
+    .icon-text{
+        font-size: 16px;
+    }
+
+    /*----------- PROJECTS -----------*/
+
+    .project-card{
+        border-radius: 25px;
+    }
+
+    .project-title{
+        font-size: 22px;
+    }
+
+    .project-link{
+        font-size: 16px;
+    }
+
+    /*----------- CONTACT -----------*/
+
+    .label-input{
+        font-size: 14px;
+    }
+
+    input[type="text"], input[type="email"], textarea{
+        border-radius: 25px;
+        padding: 3.5%;
+        font-size: 14px;
+    }
+
+    .button-send-msg{
+        font-size: 16px;
+    }
+
+    /*----------- FOOTER -----------*/
+    span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px){
+    section{
+        padding: 0 2rem;
+    }
+    /*----------- NAVBAR -----------*/
+
+    .navbar{
+        font-size: 16px;
+    }
+
+    /*----------- TITLE -----------*/
+    .landing{
+        text-align: center;
+    }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .title-text{
+        margin-top: 2%;
+        font-size: 22px;
+    }
+
+    .contact-button{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    .image{
+        display: none;
+    }
+
+    /*----------- EXPERIENCE -----------*/
+    .experience{
+        margin-top: 2rem;
+    }
+
+    .icons{
+        margin-top: 4%;
+    }
+
+    /*----------- PROJECTS -----------*/
+
+    .projects{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-card{
+        border-radius: 18px;
+    }
+
+    .project-title{
+        font-size: 22px;
+    }
+
+    .project-link{
+        font-size: 16px;
+    }
+
+    /*----------- CONTACT -----------*/
+
+    .contact{
+        padding: 7% 10%;
+    }
+    
+    .contact-row{
+        border-radius: 25px;
+    }
+    .wrap-input{
+        margin: 1% 0 6%;
+    }
+    
+    .label-input{
+        font-size: 14px;
+    }
+    
+    input[type="text"], input[type="email"], textarea{
+        border-radius: 18px;
+        padding: 4%;
+        font-size: 14px;
+    }
+    
+    .button-send-msg{
+        border-radius: 20px;
+        font-size: 15px;
+    }
+}
