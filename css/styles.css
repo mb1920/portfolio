@@ -124,13 +124,20 @@ section{
 }
 
 .project-title{
-    font-size: 24px;
-    margin-bottom: 5%;
+    font-size: 32px;
+    margin-bottom: 6%;
 }
 
 .project-link{
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+    color: #FFB026;
+}
+
+.project-icon{
+    color: #FFB026;
+    font-size: 1.8rem;
+    margin: 2%;
 }
 
 /*------------------------------- CONTACT -------------------------------*/
@@ -258,6 +265,20 @@ span{
     .icon-text{
         font-size: 12px;
     }
+
+    /*----------- PROJECTS -----------*/
+
+    .project-title{
+        font-size: 28px;
+    }
+    
+    .project-link{
+        font-size: 16px;
+    }
+    
+    .project-icon{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 992px){ 
@@ -312,11 +333,15 @@ span{
     }
 
     .project-title{
-        font-size: 22px;
+        font-size: 26px;
     }
-
+    
     .project-link{
         font-size: 16px;
+    }
+    
+    .project-icon{
+        font-size: 1.3rem;
     }
 
     /*----------- CONTACT -----------*/
@@ -394,13 +419,23 @@ span{
         border-radius: 18px;
     }
 
-    .project-title{
-        font-size: 22px;
+    .project-text{
+        text-align: center;
     }
 
-    .project-link{
-        font-size: 16px;
+    .project-title{
+        font-size: 31px;
+        margin-bottom: 4%;
     }
+    
+    .project-link{
+        font-size: 19px;
+    }
+    
+    .project-icon{
+        font-size: 1.5rem;
+    }
+
 
     /*----------- CONTACT -----------*/
 
